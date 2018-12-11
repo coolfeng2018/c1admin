@@ -1,0 +1,18 @@
+ 上级选项                权限名称              显示名称                 路由
+
+广播系统              config.stopnotice         停服公告              admin.stopnotice
+                          config.stopnotice.create   停服公告添加          admin.stopnotice.create
+                          config.stopnotice.store    停服公告添加          admin.stopnotice.store
+                          config.stopnotice.edit     停服公告编辑          admin.stopnotice.edit
+                          config.stopnotice.update   停服公告更新          admin.stopnotice.update
+                          config.stopnotice.destroy  停服公告删除          admin.stopnotice.destroy
+
+
+配置管理              config.gamelist         大厅列表配置              admin.gamelist
+                        config.gamelist.create   大厅列表添加          admin.gamelist.create
+                        config.gamelist.store    大厅列表添加          admin.gamelist.store
+                        config.gamelist.edit     大厅列表编辑          admin.gamelist.edit
+                        config.gamelist.update   大厅列表更新          admin.gamelist.update
+                        config.gamelist.destroy  大厅列表删除          admin.gamelist.destroy
+
+

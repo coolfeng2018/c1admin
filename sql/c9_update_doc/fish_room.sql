@@ -1,0 +1,3 @@
+﻿INSERT INTO `one_by_one`.`gamecfg` (`typeid`, `desc`, `key_col`, `val_col`, `memo`, `o_status`, `op_name`, `op_time`) VALUES ('8', '房间配置-捕鱼-高级场602-房间金币倍数', '602>multiple', '100', '', '2', 'zita', '2018-06-26 15:15:40');
+INSERT INTO `one_by_one`.`gamecfg` (`typeid`, `desc`, `key_col`, `val_col`, `memo`, `o_status`, `op_name`, `op_time`) VALUES ('8', '房间配置-捕鱼-中级场601-房间金币倍数', '601>multiple', '10', '', '2', 'zita', '2018-06-26 15:15:40');
+INSERT INTO `one_by_one`.`gamecfg` (`typeid`, `desc`, `key_col`, `val_col`, `memo`, `o_status`, `op_name`, `op_time`) VALUES ('8', '房间配置-捕鱼-初级场600-房间金币倍数', '600>multiple', '1', '', '2', 'zita', '2018-06-26 15:15:40');

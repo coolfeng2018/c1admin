@@ -1,0 +1,40 @@
+api .env
+
+####签名开关
+####APP_SIGN = false
+####文件上传相关配置
+FILE_UPLOAD_URI =   http://192.168.1.127:8010
+FILE_UPLOAD_ADDRESS =  ${FILE_UPLOAD_URI}/index.php
+FILE_HEAD_ICON_URL   =  ${FILE_UPLOAD_URI}/upload
+####网关配置文件路径
+####GATEWAY_CONFIG_PATH = ''
+
+
+
+
+
+agent .env
+
+###新版后台数据库 c1Admin 地址
+DB_C1ADMIN_CONNECTION   =   mysql
+DB_C1ADMIN_HOST =    192.168.1.129
+DB_C1ADMIN_PORT =   3306
+DB_C1ADMIN_DATABASE =   c1Admin
+DB_C1ADMIN_USERNAME =   root
+DB_C1ADMIN_PASSWORD =   123456
+
+
+
+
+c1admin .env 
+
+############################ 文件上传配置 #####################################
+FILE_UPLOAD_URL = http://192.168.1.127:8010
+FILE_UPLOAD_ADDRESS = ${FILE_UPLOAD_URL}/index.php
+FILE_UPLOAD_UPLOAD_URL = ${FILE_UPLOAD_URL}/upload
+
+############################ 短信配置 #####################################
+NOTE_URL = http://192.168.1.241:6690
+NOTE_API_URL = ${NOTE_URL}/api
+
+

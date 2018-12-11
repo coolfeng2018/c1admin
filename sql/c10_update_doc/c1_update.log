@@ -1,0 +1,3 @@
+c1Admin项目 config下server.php 增加 'order_api' => env('SERVER_BASE_ORDER_URI','http://192.168.1.241:6669'),   //订单相关配置
+
+c1Admin项目 admin.complaint.send // 举报功能 删除掉菜单路由选项
